@@ -1,0 +1,65 @@
+.navbar{
+  position: fixed;
+  top: 0%;
+  width: 100%;
+  left: 0%;
+}
+
+
+.navbar-brand{
+  height: 10%;
+  width: 7%;
+  left: 0%;
+  top: 0%;
+}
+
+.cricket{
+  margin-top: 11%;
+}
+
+.tb{
+  border: 1px solid blue;
+}
+
+
+
+.fm{
+  width: 500px;
+  margin: 0% auto;
+padding-top: 7px;
+}
+
+.btn{
+  margin: 0% auto;
+  width: 120px;
+  margin-left: 140px;
+
+}
+
+ .tpmargin{
+  margin-top: 5%;
+ }
+
+ .bard{
+   border: 2px solid rgb(12, 31, 39);
+   border-radius: 20px;
+   padding-bottom: 15px;
+   width: 600px;
+   margin: 0% auto;
+   background-color: turquoise;
+ }
+
+ .form-check{
+   width: 310px;
+   margin: 0% auto;
+   padding-bottom: 10px;
+ }
+
+ h1{
+   margin-top: 80px;
+   text-align: center;
+   color: brown;
+   font-style: italic;
+ }
+
+

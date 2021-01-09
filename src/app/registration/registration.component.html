@@ -1,0 +1,42 @@
+<h1> Registration Form </h1>
+<div  class='bard'>
+<form [formGroup] = "registerForm" (ngSubmit)="onSubmit()">
+  <div class="form-group">
+    <label for="name">Name</label>
+    <input type="text" class="form-control" formControlName="Name" placeholder="Enter your name">
+<span *ngIf = "!registerForm.get('Name').valid && (Name.touched || submitted )" class="ng-touched error-msg">Please enter input </span>
+  </div>
+
+  <div class="form-group">
+    <label for="Uid">User Id</label>
+    <input type="text" class="form-control" formControlName="Uid" placeholder="Enetr your user id">
+    <span *ngIf = "!Uid.valid && (Uid.touched || submitted )" class="ng-touched error-msg">Please enter valid input</span>
+
+  </div>
+  <div class="form-group">
+    <label for="exampleFormControlInput1">Email address</label>
+    <input type="email" class="form-control" formControlName="Email" id="exampleFormControlInput1" placeholder="name@example.com">
+    <span *ngIf = "!Email.valid && (Email.touched || submitted )" class="ng-touched error-msg">Plaese enter valid email id </span>
+  </div>
+
+  <div class="form-group">
+    <label for="password">Password</label>
+    <input type="password" class="form-control" formControlName="Password" placeholder="Enter your password">
+    <span *ngIf = "!Password.valid && (Password.touched || submitted )" class="ng-touched error-msg"> Plaese enter valid password </span>
+  </div>
+
+  <div class="form-group">
+    <label for="consword">Confirm Password</label>
+    <input type="password" class="form-control" formControlName="Cpassword" placeholder="Enter your password again">
+    <span *ngIf = "!Cpassword.valid && (Cpassword.touched || submitted )" class="ng-touched error-msg"> Plaese enter same password </span>
+
+    <span *ngIf = "Cpassword.valid && (Cpassword.touched || submitted ) && registerForm.hasError('notmatch')" class="ng-touched error-msg"> Your password is not matching </span>
+  </div>
+
+  <div class="form-group">
+    <button class="btn-success btn"> Submit </button>
+  </div>
+
+
+</form>
+</div>

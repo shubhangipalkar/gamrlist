@@ -1,0 +1,45 @@
+/* You can add global styles to this file, and also import other style files*/
+body, html {
+  height: 100%;
+  margin: 0;
+  min-height: fit-content;
+  overflow: hidden;
+  background-color: rgb(92, 136, 91);
+}
+
+.bg{
+  /* Center and scale the image nicely */
+  left: 0%;
+  height: 100%;
+  width: 100%;
+
+}
+
+.btn{
+  padding: 4px;
+  margin: 7px;
+}
+
+.navbar{
+  position: fixed;
+  top: 0%;
+  width: 100%;
+  left: 0%;
+}
+
+.navbar-brand{
+  height: 5%;
+  width: 7%;
+  left: 0%
+}
+
+
+.txtshow{
+  position: absolute;
+  bottom: 5%;
+  left: 8%;
+  font: outline;
+  font-style: italic;
+  text-shadow: 1px 1px gold;
+
+}

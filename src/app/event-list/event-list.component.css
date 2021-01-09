@@ -1,0 +1,29 @@
+.navbar{
+  position: fixed;
+  top: 0%;
+  width: 100%;
+  left: 0%;
+}
+
+
+.navbar-brand{
+  height: 10%;
+  width: 7%;
+  left: 0%;
+  top: 0%;
+}
+
+.e-list{
+  margin-top: 100px;
+}
+
+h1{
+  margin-top: 80px;
+  text-align: center;
+  color: brown;
+  font-style: italic;
+}
+
+
+
+

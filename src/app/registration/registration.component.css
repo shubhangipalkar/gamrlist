@@ -1,0 +1,15 @@
+h1{
+  margin-top: 10px;
+  text-align: center;
+  color: brown;
+  font-style: italic;
+}
+
+.bard{
+  border: 2px solid rgb(12, 31, 39);
+  border-radius: 20px;
+  width: 800px;
+  margin: 0% auto;
+  background-color: turquoise;
+  padding: 20px;
+}
